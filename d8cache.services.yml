@@ -1,0 +1,7 @@
+services:
+  cache.d8cache:
+    class: Drupal\Core\Cache\CacheBackendInterface
+    tags:
+      - { name: cache.bin, default_backend: cache.backend.database }
+    factory: cache_factory:get
+    arguments: [d8cache]

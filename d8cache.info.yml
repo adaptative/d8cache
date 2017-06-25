@@ -1,0 +1,5 @@
+type: module
+name: D8cache
+description: 'Custom module to show druoal 8 cache system.'
+package: Custom
+core: 8.x

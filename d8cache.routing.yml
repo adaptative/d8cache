@@ -1,0 +1,7 @@
+d8cache_demo_page:
+  path: 'cache-demo'
+  defaults:
+    _controller: '\Drupal\d8cache\Controller\D8CacheExampleController::index'
+    _title: 'Cache demo'
+  requirements:
+    _permission: 'access content'
